@@ -1,0 +1,30 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: black;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.header span {
+    font-family: "Roboto", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.header a {
+    font-family: "Roboto", sans-serif;
+    color: aquamarine;
+    font-size: 16px;
+}
